@@ -2,17 +2,16 @@ class Main
 
 fun main(args: Array<String>) {
 
-    println("main() worked")
-    separatorLine()
+    println("\nmain() worked")
+    sepLn()
 
     //инициализация Dog
     val myDog = Dog("Rex", 21, "Mixed breed")
-    println(myDog)
+    println("${myDog.name} ${myDog.weight} ${myDog.breed}")
+
 }
 
-//NuMaax fun
-fun separatorLine() {
+//just separate line
+fun sepLn() {
     println("-----")
 }
-
-//test for todayWork branch
